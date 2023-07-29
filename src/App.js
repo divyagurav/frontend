@@ -29,10 +29,6 @@ function App() {
       LocationOfExpenditure: "Movie",
     },
   ];
-  let expesesList = [];
-  expenses.forEach((item, index) => {
-    expesesList.push(<li key={index}>{item}</li>);
-  });
 
   return (
     <div>
